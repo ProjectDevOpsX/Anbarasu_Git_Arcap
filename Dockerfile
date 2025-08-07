@@ -16,6 +16,7 @@ COPY . .
 # Build the application
 RUN npm run build
 
+
 # Use a lightweight web server to serve the static files
 FROM nginx:alpine AS production
 
