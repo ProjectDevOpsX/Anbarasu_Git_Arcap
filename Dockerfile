@@ -1,5 +1,5 @@
 # Use a Debian-based Node.js image for better compatibility
-FROM node:18-bullseye AS build
+FROM node:20-bullseye AS build
 
 # Set working directory
 WORKDIR /app
